@@ -14,4 +14,8 @@ h1
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  animation: slide 3s linear infinite;
+}
+@keyframes slide {
+  to { background-position: 200% 0; }
 }
